@@ -11,6 +11,6 @@ msg = EmailMessage()
 msg["Subject"] = "joke"
 msg["From"] = "nh30112010d@big.atid.org.il"
 msg["To"] = "merrygeva312@gmail.com"
-msg.set_content("הייתי מורה לחשבון איך היה? יש פלוסים ויש מינוסים")
+msg.set_content(" הייתי מורה לחשבון איך היה? יש פלוסים ויש מינוסים")
 server.send_message(msg)
 server.quit()
